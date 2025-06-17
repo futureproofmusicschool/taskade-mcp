@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish",
-    "publish": "run-s build lint changeset:publish"
+    "publish": "run-s build lint changeset:publish",
+    "start": "yarn workspace @taskade/mcp-server start:server"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
